@@ -1,0 +1,83 @@
+body{
+    background-color: yellow;
+}
+h1,h2{
+    color: red;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    background-color:greenyellow;
+    border-color:red;
+    border-style: solid;
+}
+h2{
+    text-align: center;
+}
+.button{
+ 
+ background-color: rgb(244, 40, 54);   
+ color: red;
+
+}
+
+button{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+div{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    /* border-width :5px ; */
+    /* border-color: red;
+    border-style: solid;*/
+    background-color: rgb(0, 255, 208); 
+    border: 5px solid red;
+    border-radius: 15px;
+
+}
+h3{
+    color: red;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+footer{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.rating{
+    display: ;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:center;
+}
+.rating input{
+    display: none;
+}
+.rating label{
+    color: #ccc;
+}
+.rating label:hover{
+    color:#fcc603;
+    cursor: pointer;
+}
+
+.rating label::before{
+    content: "\2605";
+}
+.rating input:checked+label{
+    color: #fcc603;
+}
+input{
+    border-radius: 15px;
+    border: 25px solid green;
+    padding: 1px;
+    border-radius: 25px;
+
+}

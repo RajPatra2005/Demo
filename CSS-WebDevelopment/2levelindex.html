@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prolevelwebsite</title>
+    <link rel="stylesheet"href="2level.css">
+</head>
+<body>
+    <h1>hello</h1>
+    <h2>Rajesh how are you</h2>
+    
+    
+    <h2>Rate your expreince</h2>
+    <div class="rating">
+        <input type="radio"id="star5"name="rating"value="5"/>
+        <label for="5 star"></label>
+        <input type="radio"id="star4"name="rating"value="4"/>
+        <label for="4 star"></label>
+        <input type="radio"id="star3"name="rating"value="3"/>
+        <label for="3 star"></label>
+        <input type="radio"id="star2"name="rating"value="2"/>
+        <label for="2 star"></label>
+        <input type="radio"id="star1"name="rating"value="1"/>
+        <label for="1 star"></label>
+        <input type="radio"id="star0"name="rating"value="0"/>
+    </div>
+    <button onclick="summbitRatings()">summbitRatings</button>
+    <script>
+        function summbitRatings()
+        {
+            var rating=document.querySelector('input[name="rating"]:checked').value;
+            alert("you rating"+rating+"stars");
+        }
+    </script>
+    <br>
+       <h3>Give your valueble feedback:</h3>
+        <br>
+        <input type="feedback" value="feedback" width=100>
+        <br>
+        <br>
+        <div>
+            Thank you for coming out restruntant
+        </div>
+       <br>
+       <br>
+       <button>Next</button>
+       <br>
+       <br>
+        <footer>
+            @Rajesh.All rights reserved.
+            
+        </footer>
+    
+</body>
+</html>
